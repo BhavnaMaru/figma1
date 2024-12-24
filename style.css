@@ -1,0 +1,335 @@
+body{
+  background-color: #FFFFE9 !important;
+}
+
+.blank_header {
+  width: 100%;
+  height: 53px;
+  background-color: #CBCDA9;
+}
+
+/* Navbar customization */
+.navbar {
+padding:0px !important;
+}
+.navbar{
+  width:100%;
+  background-color: #FFFFE9;
+}
+div#navbarNav {
+  justify-content: center;
+}
+#navbarNav{
+background-color: #FFFFE9;
+width:100%;
+}
+.navbar-nav .nav-item .nav-link {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  width:100%;
+}
+.nav-item a{
+  color:black;
+  font-weight: 600;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  text-decoration:bold;
+}
+
+  /* banner */
+.banner-section{
+  background-image: url("./image/postive-caring-relationships-teachers\ 1.png");
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+.banner-section img {
+    width: 100%;
+    height: auto;
+}
+
+.abt-heading {
+
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    font-family:"Source Serif 4", serif;
+}
+.abt_pera{
+  text-align: center;
+    color:white;
+    font-family:"lato";
+}
+.success-heading h3,
+.teacher-heading h3,
+.work-heading h3 {
+    font-size: 2rem;
+    color: black;
+    font-family:"Source Serif 4", serif;
+}
+.see_more {
+    background-color: yellow;
+    color:black;
+    border: none;
+    padding: 10px 35px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family:"Source Serif 4", serif;
+}
+.success-row img {
+    max-width: 100%;
+}
+.success-section h3{
+  font-family: Source Serif Pro;
+  font-weight: 700;
+}
+
+/* learn section */
+section.success-section {
+  margin-top: 50px;
+}
+.learner_heading{
+  text-align: left;
+  font-family:"Source Serif 4", serif;
+  font-weight: 600;
+}
+.learn_line{
+  text-align: left !important;
+  /* width:100%; */
+}
+.learn_pera{
+  text-align: left;
+  color:#848383;
+}
+.view_more{
+  background-color: yellow;
+  color:black;
+  border: none;
+  padding: 10px 35px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family:"Source Serif 4", serif;
+  text-align: left;
+}
+.yel_circle{
+  width:100%;
+}
+
+/* enjoy section */
+.enjoy_heading{
+  text-align: left;
+  font-family:"Source Serif 4", serif;
+  font-weight: 600;
+}
+
+/* teacher section */
+.teacher-section{
+  background-color: white;
+}
+.teacher-section h3{
+  font-family: Source Serif Pro;
+  font-weight: 700;
+}
+/* slider */
+
+#news-slider{
+  margin-top: 0px;
+  overflow: hidden;
+}
+.post-slide{
+  background: #fff;
+  margin: 20px 15px 20px;
+  border-radius: 15px;
+  padding-top: 1px;
+  box-shadow: 0px 14px 22px -9px #bbcbd8;
+}
+.post-slide .post-img{
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: -12px 15px 8px 15px;
+  margin-left: -10px;
+}
+.post-slide .post-img img{
+  width: 100%;
+  height: auto;
+  transform: scale(1,1);
+  transition:transform 0.2s linear;
+}
+.post-slide:hover .post-img img{
+  transform: scale(1.1,1.1);
+}
+.owl-carousel .owl-item img {
+display: block;
+height: auto !important;
+}
+.owl-controls .owl-buttons .owl-prev{
+  background: #fff;
+  position: absolute;
+  top:-13%;
+  left:15px;
+  padding: 0 18px 0 15px;
+  border-radius: 50px;
+  box-shadow: 3px 14px 25px -10px #92b4d0;
+  transition: background 0.5s ease 0s;
+}
+.owl-controls .owl-buttons .owl-next{
+  background: #fff;
+  position: absolute;
+  top:-13%;
+  right: 15px;
+  padding: 0 15px 0 18px;
+  border-radius: 50px;
+  box-shadow: -3px 14px 25px -10px #92b4d0;
+  transition: background 0.5s ease 0s;
+}
+.owl-controls .owl-buttons .owl-prev:after,
+.owl-controls .owl-buttons .owl-next:after{
+  content:"\f104";
+  font-family: FontAwesome;
+  color: #333;
+  font-size:30px;
+}
+.owl-controls .owl-buttons .owl-next:after{
+  content:"\f105";
+}
+@media only screen and (max-width:1280px) {
+  .post-slide .post-content{
+      padding: 0px 15px 25px 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+.owl-carousel .owl-item img {
+    height: auto!important;
+}
+}
+
+/* work section */
+
+.work-section{
+  background-color: #FFFFE9;
+  text-align: center;
+    font-family:"Source Serif 4", serif;
+}
+
+/* last line */
+
+.line_sec {
+  background-color: #FFFFE9;
+
+}
+
+
+.line_Image {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+  /* Navbar adjustments */
+  .navbar-nav .nav-item .nav-link {
+    font-size: 16px; /* Slightly smaller font size */
+    padding: 10px 5px; /* Adjust padding for smaller screens */
+  }
+
+  .navbar-nav .nav-item {
+    width: 100%; /* Make navbar items take full width */
+  }
+
+  /* Banner adjustments */
+  .abt-heading {
+    font-size: 2rem; /* Make heading smaller on mobile */
+    text-align: center; /* Ensure the heading is centered */
+  }
+
+  .abt_pera {
+    font-size: 1rem; /* Reduce paragraph font size for readability */
+    margin: 0 10px; /* Add some margin to the sides */
+  }
+
+  .see_more {
+    padding: 8px 20px; /* Adjust button padding */
+    font-size: 1rem; /* Make button text smaller */
+  }
+
+  /* General adjustments */
+  .navbar-collapse {
+    text-align: center; /* Center navbar items */
+  }
+
+  /* Banner Section */
+  .banner-section img {
+    height: auto;
+    max-height: 800px; /* Limit the banner image height for mobile */
+  }
+
+  .banner-section {
+    padding: 0 10px; /* Add padding to the banner for better spacing */
+  }
+
+  /* Remove top position for absolute elements in banner */
+  .banner-section .position-absolute {
+    top: 30%;
+    transform: translate(-50%, 0); /* Adjust the position of the overlay */
+  }
+}
+
+/* Further responsiveness for extra small screens (less than 480px) */
+@media (max-width: 480px) {
+
+  /* Navbar adjustments for very small screens */
+  .navbar-nav .nav-item .nav-link {
+    font-size: 14px; /* Make text even smaller */
+  }
+
+  .abt-heading {
+    font-size: 1.5rem; /* Further reduce heading size */
+  }
+
+  .abt_pera {
+    font-size: 0.9rem; /* Further reduce paragraph font size */
+  }
+
+  .see_more {
+    padding: 6px 15px; /* Adjust padding for small screens */
+    font-size: 0.9rem; /* Reduce button font size */
+  }
+
+  .banner-section img {
+    width: 100%;
+    height: auto;
+  }
+
+  .banner-section {
+    padding: 0; /* Remove padding */
+  }
+  .success-section{
+    width: 100%;
+  }
+  .learn_line{
+    width:100%;
+  }
+  .container{
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+  .success_image img, .enjoy_image img, .yel_circle img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+}
